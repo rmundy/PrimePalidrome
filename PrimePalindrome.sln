@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimePalindrome", "PrimePalindrome\PrimePalindrome.csproj", "{2D52A050-89B8-4B4D-9794-A794F07C64D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimePalindromeTestProject", "PrimePalindromeTestProject\PrimePalindromeTestProject.csproj", "{EEB74D97-FA89-46F2-97BD-BEC95B02EB4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D52A050-89B8-4B4D-9794-A794F07C64D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D52A050-89B8-4B4D-9794-A794F07C64D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D52A050-89B8-4B4D-9794-A794F07C64D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D52A050-89B8-4B4D-9794-A794F07C64D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEB74D97-FA89-46F2-97BD-BEC95B02EB4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB74D97-FA89-46F2-97BD-BEC95B02EB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB74D97-FA89-46F2-97BD-BEC95B02EB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB74D97-FA89-46F2-97BD-BEC95B02EB4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
