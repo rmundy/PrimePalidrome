@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using PrimePalindrome;
 
 namespace PrimePalindromeTestProject
 {
@@ -7,8 +8,16 @@ namespace PrimePalindromeTestProject
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void IsPalindromeTestMethod()
         {
+            Assert.AreEqual(Program.IsPalindrome("1234321"), true);
+            Assert.AreEqual(Program.IsPalindrome("Bobby"), false);
+        }
+
+        [TestMethod]
+        public void ReverseTestMethod()
+        {
+            Assert.AreEqual(Program.Reverse("Bobby"), "ybboB");
         }
     }
 }
